@@ -1,0 +1,6 @@
+com\eb431\jsfvisitorbook\jsf\MultiDateConverter.class
+com\eb431\jsfvisitorbook\entity\Comment.class
+com\eb431\jsfvisitorbook\ejb\CommentStorageServiceBean.class
+com\eb431\jsfvisitorbook\jsf\VisitorBean.class
+com\eb431\jsfvisitorbook\ejb\CommentStorageService.class
+com\eb431\jsfvisitorbook\entity\Comment_.class

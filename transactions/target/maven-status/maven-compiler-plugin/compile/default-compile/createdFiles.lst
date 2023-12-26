@@ -1,0 +1,12 @@
+com\gp225\transactions\entity\ExerciseEntity_.class
+com\gp225\transactions\ejb\ExecutorEJB.class
+com\gp225\transactions\operations\Operation.class
+com\gp225\transactions\ejb\InitSingleton.class
+com\gp225\transactions\operations\Read.class
+com\gp225\transactions\entity\ExerciseEntity.class
+com\gp225\transactions\jsf\JSFBackingBean.class
+com\gp225\transactions\operations\ParseException.class
+com\gp225\transactions\ejb\TransactionEJB.class
+com\gp225\transactions\jsf\Parser.class
+com\gp225\transactions\operations\Write.class
+com\gp225\transactions\operations\Delay.class

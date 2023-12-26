@@ -1,0 +1,17 @@
+/* AUTOMATICALLY GENERATED ON Mon May 04 22:15:16 BST 2020*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "RSEmployee", "clean,Local,";
+  permission javax.security.jacc.EJBMethodPermission "RSEmployee", "getEmployee,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "RSEmployee", "putEmployee,Local,java.lang.String,com.gp225.rsexample.Employee,javax.ws.rs.core.UriInfo";
+  permission javax.security.jacc.EJBMethodPermission "RSEmployee", "deleteEmployee,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "RSEmployee", "getAllEmployees,Local,";
+  permission javax.security.jacc.EJBMethodPermission "RSEmployee", "init,Local,";
+  permission javax.security.jacc.EJBMethodPermission "RSEmployee", "postEmployee,Local,com.gp225.rsexample.Employee,javax.ws.rs.core.UriInfo";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "RSEmployee", "**";
+};
+

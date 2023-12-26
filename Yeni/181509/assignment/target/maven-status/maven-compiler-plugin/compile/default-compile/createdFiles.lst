@@ -1,0 +1,12 @@
+com\eb431\assignment\entity\SystemUserGroup.class
+com\eb431\assignment\entity\SystemUser.class
+com\eb431\assignment\ejb\PaymentEJB.class
+com\eb431\assignment\entity\TransactionHistory.class
+com\eb431\assignment\entity\Notifications.class
+com\eb431\assignment\JAXRSConfiguration.class
+com\eb431\assignment\ejb\UserService.class
+com\eb431\assignment\resources\JavaEE8Resource.class
+com\eb431\assignment\ejb\InitSingleton.class
+com\eb431\assignment\jsf\RegistrationBean.class
+com\eb431\assignment\entity\LoginBean.class
+com\eb431\assignment\ejb\AdminService.class

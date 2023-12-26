@@ -1,0 +1,7 @@
+/* AUTOMATICALLY GENERATED ON Mon Apr 06 23:40:14 BST 2020*/
+/* DO NOT EDIT */
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "TestBean", "**";
+};
+

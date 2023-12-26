@@ -1,0 +1,16 @@
+/* AUTOMATICALLY GENERATED ON Sat Apr 25 21:39:50 BST 2020*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "LoginBean", "setUsername,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "LoginBean", "getUsername,Local,";
+  permission javax.security.jacc.EJBMethodPermission "LoginBean", "setPassword,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "LoginBean", "getPassword,Local,";
+  permission javax.security.jacc.EJBMethodPermission "LoginBean", "logout,Local,";
+  permission javax.security.jacc.EJBMethodPermission "LoginBean", "login,Local,";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "LoginBean", "**";
+};
+

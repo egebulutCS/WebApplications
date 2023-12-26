@@ -1,0 +1,935 @@
+[2020-02-23T04:18:50.164+0000] [] [INFO] [NCLS-GFLAUNCHER-00005] [javax.enterprise.launcher] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1582431530164] [levelValue: 800] [[
+  JVM invocation command line:
+C:\Program Files\Java\jre1.8.0_231\bin\java.exe
+-cp
+C:/Users/egebu/Documents/Web Applications and Services/Payara/glassfish/modules/glassfish.jar
+-XX:+UnlockDiagnosticVMOptions
+-XX:NewRatio=2
+-Xmx512m
+-Xbootclasspath/p:C:\Users\egebu\Documents\Web Applications and Services\Payara\glassfish/lib/grizzly-npn-bootstrap-1.8.1.jar
+-client
+-javaagent:C:/Users/egebu/Documents/Web Applications and Services/Payara/glassfish/lib/monitor/flashlight-agent.jar
+-Djavax.xml.accessExternalSchema=all
+-Djavax.net.ssl.trustStore=C:\Users\egebu\Documents\Web Applications and Services\Payara\glassfish\domains\domain1/config/cacerts.jks
+-Djdk.tls.rejectClientInitiatedRenegotiation=true
+-Djdk.corba.allowOutputStreamSubclass=true
+-Dfelix.fileinstall.dir=C:\Users\egebu\Documents\Web Applications and Services\Payara\glassfish/modules/autostart/
+-Dorg.glassfish.additionalOSGiBundlesToStart=org.apache.felix.shell,org.apache.felix.gogo.runtime,org.apache.felix.gogo.shell,org.apache.felix.gogo.command,org.apache.felix.shell.remote,org.apache.felix.fileinstall
+-Dcom.sun.aas.installRoot=C:\Users\egebu\Documents\Web Applications and Services\Payara\glassfish
+-Dfelix.fileinstall.poll=5000
+-Djava.security.policy=C:\Users\egebu\Documents\Web Applications and Services\Payara\glassfish\domains\domain1/config/server.policy
+-Djava.endorsed.dirs=C:\Users\egebu\Documents\Web Applications and Services\Payara\glassfish/modules/endorsed;C:\Users\egebu\Documents\Web Applications and Services\Payara\glassfish/lib/endorsed
+-Dosgi.shell.telnet.maxconn=1
+-Dfelix.fileinstall.bundles.startTransient=true
+-Dcom.sun.enterprise.config.config_environment_factory_class=com.sun.enterprise.config.serverbeans.AppserverConfigEnvironmentFactory
+-Dfelix.fileinstall.log.level=2
+-Djavax.net.ssl.keyStore=C:\Users\egebu\Documents\Web Applications and Services\Payara\glassfish\domains\domain1/config/keystore.jks
+-Djava.security.auth.login.config=C:\Users\egebu\Documents\Web Applications and Services\Payara\glassfish\domains\domain1/config/login.conf
+-Dfelix.fileinstall.disableConfigSave=false
+-Dorg.glassfish.grizzly.DEFAULT_MEMORY_MANAGER=org.glassfish.grizzly.memory.HeapMemoryManager
+-Dfelix.fileinstall.bundles.new.start=true
+-Dcom.sun.aas.instanceRoot=C:\Users\egebu\Documents\Web Applications and Services\Payara\glassfish\domains\domain1
+-Dosgi.shell.telnet.port=6666
+-Dgosh.args=--nointeractive
+-Dcom.sun.enterprise.security.httpsOutboundKeyAlias=s1as
+-Dorg.jboss.weld.serialization.beanIdentifierIndexOptimization=false
+-Dosgi.shell.telnet.ip=127.0.0.1
+-DANTLR_USE_DIRECT_CLASS_LOADING=true
+-Djava.awt.headless=true
+-Dcom.ctc.wstx.returnNullForDefaultNamespace=true
+-Djava.ext.dirs=C:\Program Files\Java\jre1.8.0_231/lib/ext;C:\Program Files\Java\jre1.8.0_231/jre/lib/ext;C:\Users\egebu\Documents\Web Applications and Services\Payara\glassfish\domains\domain1/lib/ext
+-Djdbc.drivers=org.apache.derby.jdbc.ClientDriver
+-Dorg.glassfish.grizzly.nio.DefaultSelectorHandler.force-selector-spin-detection=true
+-Djava.library.path=C:/Users/egebu/Documents/Web Applications and Services/Payara/glassfish/lib;C:/Program Files (x86)/Common Files/Oracle/Java/javapath;C:/Windows/Sun/Java/bin;C:/Windows/System32;C:/Windows;C:/Program Files/Haskell/bin;C:/Program Files/Haskell Platform/8.6.5/lib/extralibs/bin;C:/Program Files/Haskell Platform/8.6.5/bin;C:/Program Files (x86)/Razer/ChromaBroadcast/bin;C:/Program Files/Razer/ChromaBroadcast/bin;C:/Program Files (x86)/Razer Chroma SDK/bin;C:/Program Files/Razer Chroma SDK/bin;C:/ProgramData/Oracle/Java/javapath;C:/Windows/System32/wbem;C:/Windows/System32/WindowsPowerShell/v1.0;C:/Windows/System32/OpenSSH;C:/Program Files/PuTTY;C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps;C:/Users/egebu/AppData/Local/Microsoft/WindowsApps;C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR;C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common;C:/Program Files/Haskell Platform/8.6.5/mingw/bin;C:/Program Files/nodejs;C:/Users/egebu/AppData/Roaming/cabal/bin;C:/Users/egebu/AppData/Roaming/local/bin;C:/Users/egebu/AppData/Roaming/npm;C:/Users/egebu/AppData/Local/atom/bin;C:/Users/egebu/Documents/Web Applications and Services/Payara/bin
+com.sun.enterprise.glassfish.bootstrap.ASMain
+-upgrade
+false
+-domaindir
+C:/Users/egebu/Documents/Web Applications and Services/Payara/glassfish/domains/domain1
+-read-stdin
+true
+-asadmin-args
+--host,,,localhost,,,--port,,,4848,,,--secure=false,,,--terse=false,,,--extraterse=false,,,--echo=false,,,--interactive=true,,,--autoname=false,,,start-domain,,,--verbose=false,,,--watchdog=false,,,--debug=false,,,--domaindir,,,C:\Users\egebu\Documents\Web Applications and Services\Payara\glassfish\domains,,,domain1
+-domainname
+domain1
+-instancename
+server
+-type
+DAS
+-verbose
+false
+-asadmin-classpath
+C:/Users/egebu/Documents/Web Applications and Services/Payara/glassfish/lib/client/appserver-cli.jar
+-debug
+false
+-asadmin-classname
+com.sun.enterprise.admin.cli.AdminMain
+-watchdog
+false]]
+
+[2020-02-23T04:18:57.477+0000] [Payara 5.193] [INFO] [NCLS-LOGGING-00009] [javax.enterprise.logging] [tid: _ThreadID=31 _ThreadName=RunLevelControllerThread-1582431537358] [timeMillis: 1582431537477] [levelValue: 800] [[
+  Running Payara Version: Payara Server  5.193 #badassfish (build 252)]]
+
+[2020-02-23T04:18:57.482+0000] [Payara 5.193] [INFO] [NCLS-LOGGING-00010] [javax.enterprise.logging] [tid: _ThreadID=31 _ThreadName=RunLevelControllerThread-1582431537358] [timeMillis: 1582431537482] [levelValue: 800] [[
+  Server log file is using Formatter class: com.sun.enterprise.server.logging.ODLLogFormatter]]
+
+[2020-02-23T04:18:57.756+0000] [Payara 5.193] [INFO] [] [org.hibernate.validator.internal.util.Version] [tid: _ThreadID=31 _ThreadName=RunLevelControllerThread-1582431537358] [timeMillis: 1582431537756] [levelValue: 800] [[
+  HV000001: Hibernate Validator 6.0.16.Final]]
+
+[2020-02-23T04:18:57.898+0000] [Payara 5.193] [INFO] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1582431537365] [timeMillis: 1582431537898] [levelValue: 800] [[
+  Network Listener http-listener-1 started in: 8ms - bound to [/0.0.0.0:8080]]]
+
+[2020-02-23T04:18:57.913+0000] [Payara 5.193] [INFO] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1582431537365] [timeMillis: 1582431537913] [levelValue: 800] [[
+  Network Listener http-listener-2 started in: 1ms - bound to [/0.0.0.0:8181]]]
+
+[2020-02-23T04:18:57.919+0000] [Payara 5.193] [INFO] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1582431537365] [timeMillis: 1582431537919] [levelValue: 800] [[
+  Network Listener admin-listener started in: 1ms - bound to [/0.0.0.0:4848]]]
+
+[2020-02-23T04:18:57.920+0000] [Payara 5.193] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1582431537365] [timeMillis: 1582431537920] [levelValue: 800] [[
+  Grizzly 2.4.3 started in: 360ms - bound to [http-listener-1:8080, http-listener-2:8181, admin-listener:4848]]]
+
+[2020-02-23T04:18:58.047+0000] [Payara 5.193] [INFO] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=31 _ThreadName=RunLevelControllerThread-1582431537358] [timeMillis: 1582431538047] [levelValue: 800] [[
+  Registered fish.payara.ha.hazelcast.store.HazelcastBackingStoreFactoryProxy for persistence-type = hazelcast in BackingStoreFactoryRegistry]]
+
+[2020-02-23T04:18:58.354+0000] [Payara 5.193] [INFO] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=30 _ThreadName=RunLevelControllerThread-1582431537356] [timeMillis: 1582431538354] [levelValue: 800] [[
+  Network Listener iiop-service started in: 2ms - bound to [/0.0.0.0:3700]]]
+
+[2020-02-23T04:19:02.434+0000] [Payara 5.193] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=31 _ThreadName=RunLevelControllerThread-1582431537358] [timeMillis: 1582431542434] [levelValue: 800] [[
+  Hazelcast Instance Bound to JNDI at payara/Hazelcast]]
+
+[2020-02-23T04:19:02.434+0000] [Payara 5.193] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=31 _ThreadName=RunLevelControllerThread-1582431537358] [timeMillis: 1582431542434] [levelValue: 800] [[
+  JSR107 Caching Provider Bound to JNDI at payara/CachingProvider]]
+
+[2020-02-23T04:19:02.434+0000] [Payara 5.193] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=31 _ThreadName=RunLevelControllerThread-1582431537358] [timeMillis: 1582431542434] [levelValue: 800] [[
+  JSR107 Default Cache Manager Bound to JNDI at payara/CacheManager]]
+
+[2020-02-23T04:19:02.450+0000] [Payara 5.193] [INFO] [NCLS-CORE-00017] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1582431542450] [levelValue: 800] [[
+  Payara Server  5.193 #badassfish (252) startup time : Felix (6,937ms), startup services(5,098ms), total(12,035ms)]]
+
+[2020-02-23T04:19:02.450+0000] [Payara 5.193] [INFO] [] [fish.payara.nucleus.cluster.PayaraCluster] [tid: _ThreadID=136 _ThreadName=Executor-Service-5] [timeMillis: 1582431542450] [levelValue: 800] [[
+  Data Grid Status 
+Payara Data Grid State: DG Version: 35 DG Name: development DG Size: 1
+Instances: {
+ DataGrid: development Instance Group: MicroShoal Name: server Lite: false This: true UUID: d2bb6652-8e3d-4d5c-949f-96ec9c6402c1 Address: /192.168.14.1:4900
+}]]
+
+[2020-02-23T04:19:02.454+0000] [Payara 5.193] [INFO] [] [fish.payara.nucleus.notification.NotificationService] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1582431542454] [levelValue: 800] [[
+  Payara Notification Service bootstrapped with configuration: NotificationExecutionOptions{enabled=true, notifierConfigurationExecutionOptionsList={LOG=LogNotifierConfigurationExecutionOptions{useSeparateLogFile=false} NotifierConfigurationExecutionOptions{notifierType=LOG, enabled=true, noisy=true}}}]]
+
+[2020-02-23T04:19:03.054+0000] [Payara 5.193] [INFO] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=30 _ThreadName=RunLevelControllerThread-1582431537356] [timeMillis: 1582431543054] [levelValue: 800] [[
+  Network Listener JMS_PROXY_default_JMS_host started in: 1ms - bound to [/0.0.0.0:7676]]]
+
+[2020-02-23T04:19:03.069+0000] [Payara 5.193] [INFO] [NCLS-JMX-00005] [javax.enterprise.system.jmx] [tid: _ThreadID=156 _ThreadName=Thread-15] [timeMillis: 1582431543069] [levelValue: 800] [[
+  JMXStartupService has started JMXConnector on JMXService URL service:jmx:rmi://0.0.0.0:8686/jndi/rmi://0.0.0.0:8686/jmxrmi]]
+
+[2020-02-23T04:19:03.239+0000] [Payara 5.193] [INFO] [] [org.jvnet.hk2.osgiadapter] [tid: _ThreadID=21 _ThreadName=FelixStartLevel] [timeMillis: 1582431543239] [levelValue: 800] [[
+  Skipping registration of inhabitant for service reference [org.osgi.service.metatype.MetaTypeProvider] as the service object could not be obtained.]]
+
+[2020-02-23T04:19:03.808+0000] [Payara 5.193] [SEVERE] [NCLS-SECURITY-05054] [javax.enterprise.system.security.ssl] [tid: _ThreadID=118 _ThreadName=admin-thread-pool::admin-listener(3)] [timeMillis: 1582431543808] [levelValue: 1000] [[
+  The SSL certificate has expired: [
+[
+  Version: V3
+  Subject: CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 21877342614735064986586094209008949861633415438321046094865735894101046869669024974234189221129376235137504163448391667494521959302368300673495711648664420351966300087244240539893392975177816108541817252818998001932142985065266407504518566289301698937041931668276581800733716890145024940625536991682725365140451115767110550542345758164504698636529042078537609343076050570785483670809094993963575569689277704991843533760219663288836022206035538841969109577376809337618824179167781883694301066738001489513517818892302945620562766589172426570508291886401623875028645352783701438149952282706361006848685772598444243814369
+  public exponent: 65537
+  Validity: [From: Fri Dec 24 17:50:51 GMT 1999,
+               To: Tue Dec 24 18:20:51 GMT 2019]
+  Issuer: CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net
+  SerialNumber: [    3863b966]
+
+Certificate Extensions: 4
+[1]: ObjectId: 1.2.840.113533.7.65.0 Criticality=false
+Extension unknown: DER encoded OCTET string =
+0000: 04 10 30 0E 1B 08 56 35   2E 30 3A 34 2E 30 03 02  ..0...V5.0:4.0..
+0010: 04 90                                              ..
+
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 55 E4 81 D1 11 80 BE D8   89 B9 08 A3 31 F9 A1 24  U...........1..$
+0010: 09 16 B9 70                                        ...p
+]
+]
+
+[3]: ObjectId: 2.16.840.1.113730.1.1 Criticality=false
+NetscapeCertType [
+   SSL CA
+   S/MIME CA
+   Object Signing CA]
+
+[4]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 55 E4 81 D1 11 80 BE D8   89 B9 08 A3 31 F9 A1 24  U...........1..$
+0010: 09 16 B9 70                                        ...p
+]
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: 59 47 AC 21 84 8A 17 C9   9C 89 53 1E BA 80 85 1A  YG.!......S.....
+0010: C6 3C 4E 3E B1 9C B6 7C   C6 92 5D 18 64 02 E3 D3  .<N>......].d...
+0020: 06 08 11 61 7C 63 E3 2B   9D 31 03 70 76 D2 A3 28  ...a.c.+.1.pv..(
+0030: A0 F4 BB 9A 63 73 ED 6D   E5 2A DB ED 14 A9 2B C6  ....cs.m.*....+.
+0040: 36 11 D0 2B EB 07 8B A5   DA 9E 5C 19 9D 56 12 F5  6..+......\..V..
+0050: 54 29 C8 05 ED B2 12 2A   8D F4 03 1B FF E7 92 10  T).....*........
+0060: 87 B0 3A B5 C3 9D 05 37   12 A3 C7 F4 15 B9 D5 A4  ..:....7........
+0070: 39 16 9B 53 3A 23 91 F1   A8 82 A2 6A 88 68 C1 79  9..S:#.....j.h.y
+0080: 02 22 BC AA A6 D6 AE DF   B0 14 5F B8 87 D0 DD 7C  ."........_.....
+0090: 7F 7B FF AF 1C CF E6 DB   07 AD 5E DB 85 9D D0 2B  ..........^....+
+00A0: 0D 33 DB 04 D1 E6 49 40   13 2B 76 FB 3E E9 9C 89  .3....I@.+v.>...
+00B0: 0F 15 CE 18 B0 85 78 21   4F 6B 4F 0E FA 36 67 CD  ......x!OkO..6g.
+00C0: 07 F2 FF 08 D0 E2 DE D9   BF 2A AF B8 87 86 21 3C  .........*....!<
+00D0: 04 CA B7 94 68 7F CF 3C   E9 98 D7 38 FF EC C0 D9  ....h..<...8....
+00E0: 50 F0 2E 4B 58 AE 46 6F   D0 2E C3 60 DA 72 55 72  P..KX.Fo...`.rUr
+00F0: BD 4C 45 9E 61 BA BF 84   81 92 03 D1 D2 69 7C C5  .LE.a........i..
+
+]]]
+
+[2020-02-23T04:19:03.845+0000] [Payara 5.193] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=135 _ThreadName=Thread-12] [timeMillis: 1582431543845] [levelValue: 800] [[
+  Created HTTP listener http-listener-1 on host/port 0.0.0.0:8080]]
+
+[2020-02-23T04:19:03.848+0000] [Payara 5.193] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=135 _ThreadName=Thread-12] [timeMillis: 1582431543848] [levelValue: 800] [[
+  Created HTTP listener http-listener-2 on host/port 0.0.0.0:8181]]
+
+[2020-02-23T04:19:03.849+0000] [Payara 5.193] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=135 _ThreadName=Thread-12] [timeMillis: 1582431543849] [levelValue: 800] [[
+  Created HTTP listener admin-listener on host/port 0.0.0.0:4848]]
+
+[2020-02-23T04:19:03.868+0000] [Payara 5.193] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=135 _ThreadName=Thread-12] [timeMillis: 1582431543868] [levelValue: 800] [[
+  Created virtual server server]]
+
+[2020-02-23T04:19:03.871+0000] [Payara 5.193] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=135 _ThreadName=Thread-12] [timeMillis: 1582431543871] [levelValue: 800] [[
+  Created virtual server __asadmin]]
+
+[2020-02-23T04:19:03.873+0000] [Payara 5.193] [INFO] [NCLS-SECURITY-01143] [javax.enterprise.system.core.security] [tid: _ThreadID=135 _ThreadName=Thread-12] [timeMillis: 1582431543873] [levelValue: 800] [[
+  Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.]]
+
+[2020-02-23T04:19:03.873+0000] [Payara 5.193] [INFO] [] [javax.enterprise.resource.corba.org.glassfish.enterprise.iiop.api] [tid: _ThreadID=118 _ThreadName=admin-thread-pool::admin-listener(3)] [timeMillis: 1582431543873] [levelValue: 800] [[
+  GlassFishORBFactory service initialized.]]
+
+[2020-02-23T04:19:04.067+0000] [Payara 5.193] [INFO] [AS-WEB-GLUE-00201] [javax.enterprise.web] [tid: _ThreadID=135 _ThreadName=Thread-12] [timeMillis: 1582431544067] [levelValue: 800] [[
+  Virtual server server loaded default web module ]]
+
+[2020-02-23T04:19:04.799+0000] [Payara 5.193] [INFO] [NCLS-REST-00001] [javax.enterprise.admin.rest] [tid: _ThreadID=118 _ThreadName=admin-thread-pool::admin-listener(3)] [timeMillis: 1582431544799] [levelValue: 800] [[
+  Listening to REST requests at context: /management/domain.]]
+
+[2020-02-23T04:19:04.908+0000] [Payara 5.193] [INFO] [NCLS-SECURITY-01002] [javax.enterprise.system.core.security] [tid: _ThreadID=135 _ThreadName=Thread-12] [timeMillis: 1582431544908] [levelValue: 800] [[
+  Java security manager is disabled.]]
+
+[2020-02-23T04:19:04.908+0000] [Payara 5.193] [INFO] [NCLS-SECURITY-01010] [javax.enterprise.system.core.security] [tid: _ThreadID=135 _ThreadName=Thread-12] [timeMillis: 1582431544908] [levelValue: 800] [[
+  Entering Security Startup Service.]]
+
+[2020-02-23T04:19:04.916+0000] [Payara 5.193] [INFO] [NCLS-SECURITY-01011] [javax.enterprise.system.core.security] [tid: _ThreadID=135 _ThreadName=Thread-12] [timeMillis: 1582431544916] [levelValue: 800] [[
+  Security Service(s) started successfully.]]
+
+[2020-02-23T04:19:05.244+0000] [Payara 5.193] [INFO] [NCLS-CORE-00022] [javax.enterprise.system.core] [tid: _ThreadID=135 _ThreadName=Thread-12] [timeMillis: 1582431545244] [levelValue: 800] [[
+  Loading application __admingui done in 2,723 ms]]
+
+[2020-02-23T04:19:06.105+0000] [Payara 5.193] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=135 _ThreadName=Thread-12] [timeMillis: 1582431546105] [levelValue: 800] [[
+  Initializing Mojarra 2.3.9.payara-p3 for context '']]
+
+[2020-02-23T04:19:07.056+0000] [Payara 5.193] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=135 _ThreadName=Thread-12] [timeMillis: 1582431547056] [levelValue: 800] [[
+  Loading application [__admingui] at [/]]]
+
+[2020-02-23T04:19:07.497+0000] [Payara 5.193] [INFO] [] [javax.enterprise.system.container.web.com.sun.web.security] [tid: _ThreadID=116 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1582431547497] [levelValue: 800] [[
+  Context path from ServletContext:  differs from path from bundle: /]]
+
+[2020-02-23T04:19:07.847+0000] [Payara 5.193] [SEVERE] [NCLS-SECURITY-05054] [javax.enterprise.system.security.ssl] [tid: _ThreadID=116 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1582431547847] [levelValue: 1000] [[
+  The SSL certificate has expired: [
+[
+  Version: V3
+  Subject: CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 21877342614735064986586094209008949861633415438321046094865735894101046869669024974234189221129376235137504163448391667494521959302368300673495711648664420351966300087244240539893392975177816108541817252818998001932142985065266407504518566289301698937041931668276581800733716890145024940625536991682725365140451115767110550542345758164504698636529042078537609343076050570785483670809094993963575569689277704991843533760219663288836022206035538841969109577376809337618824179167781883694301066738001489513517818892302945620562766589172426570508291886401623875028645352783701438149952282706361006848685772598444243814369
+  public exponent: 65537
+  Validity: [From: Fri Dec 24 17:50:51 GMT 1999,
+               To: Tue Dec 24 18:20:51 GMT 2019]
+  Issuer: CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net
+  SerialNumber: [    3863b966]
+
+Certificate Extensions: 4
+[1]: ObjectId: 1.2.840.113533.7.65.0 Criticality=false
+Extension unknown: DER encoded OCTET string =
+0000: 04 10 30 0E 1B 08 56 35   2E 30 3A 34 2E 30 03 02  ..0...V5.0:4.0..
+0010: 04 90                                              ..
+
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 55 E4 81 D1 11 80 BE D8   89 B9 08 A3 31 F9 A1 24  U...........1..$
+0010: 09 16 B9 70                                        ...p
+]
+]
+
+[3]: ObjectId: 2.16.840.1.113730.1.1 Criticality=false
+NetscapeCertType [
+   SSL CA
+   S/MIME CA
+   Object Signing CA]
+
+[4]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 55 E4 81 D1 11 80 BE D8   89 B9 08 A3 31 F9 A1 24  U...........1..$
+0010: 09 16 B9 70                                        ...p
+]
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: 59 47 AC 21 84 8A 17 C9   9C 89 53 1E BA 80 85 1A  YG.!......S.....
+0010: C6 3C 4E 3E B1 9C B6 7C   C6 92 5D 18 64 02 E3 D3  .<N>......].d...
+0020: 06 08 11 61 7C 63 E3 2B   9D 31 03 70 76 D2 A3 28  ...a.c.+.1.pv..(
+0030: A0 F4 BB 9A 63 73 ED 6D   E5 2A DB ED 14 A9 2B C6  ....cs.m.*....+.
+0040: 36 11 D0 2B EB 07 8B A5   DA 9E 5C 19 9D 56 12 F5  6..+......\..V..
+0050: 54 29 C8 05 ED B2 12 2A   8D F4 03 1B FF E7 92 10  T).....*........
+0060: 87 B0 3A B5 C3 9D 05 37   12 A3 C7 F4 15 B9 D5 A4  ..:....7........
+0070: 39 16 9B 53 3A 23 91 F1   A8 82 A2 6A 88 68 C1 79  9..S:#.....j.h.y
+0080: 02 22 BC AA A6 D6 AE DF   B0 14 5F B8 87 D0 DD 7C  ."........_.....
+0090: 7F 7B FF AF 1C CF E6 DB   07 AD 5E DB 85 9D D0 2B  ..........^....+
+00A0: 0D 33 DB 04 D1 E6 49 40   13 2B 76 FB 3E E9 9C 89  .3....I@.+v.>...
+00B0: 0F 15 CE 18 B0 85 78 21   4F 6B 4F 0E FA 36 67 CD  ......x!OkO..6g.
+00C0: 07 F2 FF 08 D0 E2 DE D9   BF 2A AF B8 87 86 21 3C  .........*....!<
+00D0: 04 CA B7 94 68 7F CF 3C   E9 98 D7 38 FF EC C0 D9  ....h..<...8....
+00E0: 50 F0 2E 4B 58 AE 46 6F   D0 2E C3 60 DA 72 55 72  P..KX.Fo...`.rUr
+00F0: BD 4C 45 9E 61 BA BF 84   81 92 03 D1 D2 69 7C C5  .LE.a........i..
+
+]]]
+
+[2020-02-23T04:19:09.492+0000] [Payara 5.193] [SEVERE] [NCLS-SECURITY-05054] [javax.enterprise.system.security.ssl] [tid: _ThreadID=210 _ThreadName=admin-thread-pool::admin-listener(5)] [timeMillis: 1582431549492] [levelValue: 1000] [[
+  The SSL certificate has expired: [
+[
+  Version: V3
+  Subject: CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 21877342614735064986586094209008949861633415438321046094865735894101046869669024974234189221129376235137504163448391667494521959302368300673495711648664420351966300087244240539893392975177816108541817252818998001932142985065266407504518566289301698937041931668276581800733716890145024940625536991682725365140451115767110550542345758164504698636529042078537609343076050570785483670809094993963575569689277704991843533760219663288836022206035538841969109577376809337618824179167781883694301066738001489513517818892302945620562766589172426570508291886401623875028645352783701438149952282706361006848685772598444243814369
+  public exponent: 65537
+  Validity: [From: Fri Dec 24 17:50:51 GMT 1999,
+               To: Tue Dec 24 18:20:51 GMT 2019]
+  Issuer: CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net
+  SerialNumber: [    3863b966]
+
+Certificate Extensions: 4
+[1]: ObjectId: 1.2.840.113533.7.65.0 Criticality=false
+Extension unknown: DER encoded OCTET string =
+0000: 04 10 30 0E 1B 08 56 35   2E 30 3A 34 2E 30 03 02  ..0...V5.0:4.0..
+0010: 04 90                                              ..
+
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 55 E4 81 D1 11 80 BE D8   89 B9 08 A3 31 F9 A1 24  U...........1..$
+0010: 09 16 B9 70                                        ...p
+]
+]
+
+[3]: ObjectId: 2.16.840.1.113730.1.1 Criticality=false
+NetscapeCertType [
+   SSL CA
+   S/MIME CA
+   Object Signing CA]
+
+[4]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 55 E4 81 D1 11 80 BE D8   89 B9 08 A3 31 F9 A1 24  U...........1..$
+0010: 09 16 B9 70                                        ...p
+]
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: 59 47 AC 21 84 8A 17 C9   9C 89 53 1E BA 80 85 1A  YG.!......S.....
+0010: C6 3C 4E 3E B1 9C B6 7C   C6 92 5D 18 64 02 E3 D3  .<N>......].d...
+0020: 06 08 11 61 7C 63 E3 2B   9D 31 03 70 76 D2 A3 28  ...a.c.+.1.pv..(
+0030: A0 F4 BB 9A 63 73 ED 6D   E5 2A DB ED 14 A9 2B C6  ....cs.m.*....+.
+0040: 36 11 D0 2B EB 07 8B A5   DA 9E 5C 19 9D 56 12 F5  6..+......\..V..
+0050: 54 29 C8 05 ED B2 12 2A   8D F4 03 1B FF E7 92 10  T).....*........
+0060: 87 B0 3A B5 C3 9D 05 37   12 A3 C7 F4 15 B9 D5 A4  ..:....7........
+0070: 39 16 9B 53 3A 23 91 F1   A8 82 A2 6A 88 68 C1 79  9..S:#.....j.h.y
+0080: 02 22 BC AA A6 D6 AE DF   B0 14 5F B8 87 D0 DD 7C  ."........_.....
+0090: 7F 7B FF AF 1C CF E6 DB   07 AD 5E DB 85 9D D0 2B  ..........^....+
+00A0: 0D 33 DB 04 D1 E6 49 40   13 2B 76 FB 3E E9 9C 89  .3....I@.+v.>...
+00B0: 0F 15 CE 18 B0 85 78 21   4F 6B 4F 0E FA 36 67 CD  ......x!OkO..6g.
+00C0: 07 F2 FF 08 D0 E2 DE D9   BF 2A AF B8 87 86 21 3C  .........*....!<
+00D0: 04 CA B7 94 68 7F CF 3C   E9 98 D7 38 FF EC C0 D9  ....h..<...8....
+00E0: 50 F0 2E 4B 58 AE 46 6F   D0 2E C3 60 DA 72 55 72  P..KX.Fo...`.rUr
+00F0: BD 4C 45 9E 61 BA BF 84   81 92 03 D1 D2 69 7C C5  .LE.a........i..
+
+]]]
+
+[2020-02-23T04:19:09.532+0000] [Payara 5.193] [INFO] [] [org.glassfish.admingui] [tid: _ThreadID=210 _ThreadName=admin-thread-pool::admin-listener(5)] [timeMillis: 1582431549532] [levelValue: 800] [[
+  Redirecting to /]]
+
+[2020-02-23T04:19:09.654+0000] [Payara 5.193] [INFO] [] [org.glassfish.admingui] [tid: _ThreadID=118 _ThreadName=admin-thread-pool::admin-listener(3)] [timeMillis: 1582431549654] [levelValue: 800] [[
+  Admin Console: Initializing Session Attributes...]]
+
+[2020-02-23T04:21:57.051+0000] [Payara 5.193] [INFO] [] [org.jboss.weld.Version] [tid: _ThreadID=209 _ThreadName=admin-thread-pool::admin-listener(4)] [timeMillis: 1582431717051] [levelValue: 800] [[
+  WELD-000900: 3.1.1 (Final)]]
+
+[2020-02-23T04:21:57.170+0000] [Payara 5.193] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=209 _ThreadName=admin-thread-pool::admin-listener(4)] [timeMillis: 1582431717170] [levelValue: 800] [[
+  Portable JNDI names for EJB CommentStore: [java:global/ServletCommentStore-1.0-SNAPSHOT/CommentStore!com.eb431.servletcommentstore.CommentStore, java:global/ServletCommentStore-1.0-SNAPSHOT/CommentStore]]]
+
+[2020-02-23T04:21:58.291+0000] [Payara 5.193] [INFO] [] [fish.payara.micro.cdi.extension.ClusteredCDIEventBusImpl] [tid: _ThreadID=209 _ThreadName=admin-thread-pool::admin-listener(4)] [timeMillis: 1582431718291] [levelValue: 800] [[
+  Clustered CDI Event bus initialized]]
+
+[2020-02-23T04:21:58.367+0000] [Payara 5.193] [INFO] [] [org.glassfish.soteria.servlet.SamRegistrationInstaller] [tid: _ThreadID=209 _ThreadName=admin-thread-pool::admin-listener(4)] [timeMillis: 1582431718367] [levelValue: 800] [[
+  Initializing Soteria 1.1-b01 for context '/ServletCommentStore']]
+
+[2020-02-23T04:21:58.482+0000] [Payara 5.193] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=209 _ThreadName=admin-thread-pool::admin-listener(4)] [timeMillis: 1582431718482] [levelValue: 800] [[
+  Loading application [ServletCommentStore-1.0-SNAPSHOT] at [/ServletCommentStore]]]
+
+[2020-02-23T04:21:58.541+0000] [Payara 5.193] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=209 _ThreadName=admin-thread-pool::admin-listener(4)] [timeMillis: 1582431718541] [levelValue: 800] [[
+  ServletCommentStore-1.0-SNAPSHOT was successfully deployed in 1,694 milliseconds.]]
+
+[2020-02-23T04:23:02.299+0000] [Payara 5.193] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=116 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1582431782299] [levelValue: 800] [[
+  Portable JNDI names for EJB CommentStore: [java:global/ServletCommentStore-1.0-SNAPSHOT/CommentStore!com.eb431.servletcommentstore.CommentStore, java:global/ServletCommentStore-1.0-SNAPSHOT/CommentStore]]]
+
+[2020-02-23T04:23:02.548+0000] [Payara 5.193] [INFO] [] [fish.payara.micro.cdi.extension.ClusteredCDIEventBusImpl] [tid: _ThreadID=116 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1582431782548] [levelValue: 800] [[
+  Clustered CDI Event bus initialized]]
+
+[2020-02-23T04:23:02.590+0000] [Payara 5.193] [INFO] [] [org.glassfish.soteria.servlet.SamRegistrationInstaller] [tid: _ThreadID=116 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1582431782590] [levelValue: 800] [[
+  Initializing Soteria 1.1-b01 for context '/ServletCommentStore']]
+
+[2020-02-23T04:23:02.682+0000] [Payara 5.193] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=116 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1582431782682] [levelValue: 800] [[
+  Loading application [ServletCommentStore-1.0-SNAPSHOT] at [/ServletCommentStore]]]
+
+[2020-02-23T04:23:02.726+0000] [Payara 5.193] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=116 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1582431782726] [levelValue: 800] [[
+  ServletCommentStore-1.0-SNAPSHOT was successfully deployed in 538 milliseconds.]]
+
+[2020-02-23T04:23:31.506+0000] [Payara 5.193] [INFO] [NCLS-REST-00001] [javax.enterprise.admin.rest] [tid: _ThreadID=211 _ThreadName=admin-thread-pool::admin-listener(6)] [timeMillis: 1582431811506] [levelValue: 800] [[
+  Listening to REST requests at context: /command/domain.]]
+
+[2020-02-23T04:23:31.530+0000] [Payara 5.193] [INFO] [NCLS-CORE-00092] [javax.enterprise.system.core] [tid: _ThreadID=261 _ThreadName=Thread-36] [timeMillis: 1582431811530] [levelValue: 800] [[
+  Server shutdown initiated]]
+
+[2020-02-23T04:23:31.539+0000] [Payara 5.193] [INFO] [] [] [tid: _ThreadID=261 _ThreadName=Thread-36] [timeMillis: 1582431811539] [levelValue: 800] [[
+  FileMonitoring shutdown]]
+
+[2020-02-23T04:23:31.543+0000] [Payara 5.193] [INFO] [NCLS-JMX-00002] [javax.enterprise.system.jmx] [tid: _ThreadID=261 _ThreadName=Thread-36] [timeMillis: 1582431811543] [levelValue: 800] [[
+  JMXStartupService: Stopped JMXConnectorServer: null]]
+
+[2020-02-23T04:23:31.544+0000] [Payara 5.193] [INFO] [NCLS-JMX-00001] [javax.enterprise.system.jmx] [tid: _ThreadID=261 _ThreadName=Thread-36] [timeMillis: 1582431811544] [levelValue: 800] [[
+  JMXStartupService and JMXConnectors have been shut down.]]
+
+[2020-02-23T04:23:31.673+0000] [Payara 5.193] [SEVERE] [] [javax.enterprise.web.util] [tid: _ThreadID=268 _ThreadName=RunLevelControllerThread-1582431811574] [timeMillis: 1582431811673] [levelValue: 1000] [[
+  The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@76be49af]) and a value of type [org.glassfish.admingui.theme.AdminguiThemeContext] (value [org.glassfish.admingui.theme.AdminguiThemeContext@13615c0f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2020-02-23T04:23:31.673+0000] [Payara 5.193] [SEVERE] [] [javax.enterprise.web.util] [tid: _ThreadID=268 _ThreadName=RunLevelControllerThread-1582431811574] [timeMillis: 1582431811673] [levelValue: 1000] [[
+  The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@76be49af]) and a value of type [org.glassfish.admingui.theme.AdminguiThemeContext] (value [org.glassfish.admingui.theme.AdminguiThemeContext@13615c0f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2020-02-23T04:23:31.674+0000] [Payara 5.193] [SEVERE] [] [javax.enterprise.web.util] [tid: _ThreadID=268 _ThreadName=RunLevelControllerThread-1582431811574] [timeMillis: 1582431811674] [levelValue: 1000] [[
+  The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@76be49af]) and a value of type [org.glassfish.admingui.theme.AdminguiThemeContext] (value [org.glassfish.admingui.theme.AdminguiThemeContext@13615c0f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2020-02-23T04:23:31.674+0000] [Payara 5.193] [SEVERE] [] [javax.enterprise.web.util] [tid: _ThreadID=268 _ThreadName=RunLevelControllerThread-1582431811574] [timeMillis: 1582431811674] [levelValue: 1000] [[
+  The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@76be49af]) and a value of type [org.glassfish.admingui.theme.AdminguiThemeContext] (value [org.glassfish.admingui.theme.AdminguiThemeContext@13615c0f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2020-02-23T04:23:31.674+0000] [Payara 5.193] [SEVERE] [] [javax.enterprise.web.util] [tid: _ThreadID=268 _ThreadName=RunLevelControllerThread-1582431811574] [timeMillis: 1582431811674] [levelValue: 1000] [[
+  The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@76be49af]) and a value of type [org.glassfish.admingui.theme.AdminguiThemeContext] (value [org.glassfish.admingui.theme.AdminguiThemeContext@13615c0f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2020-02-23T04:23:31.674+0000] [Payara 5.193] [SEVERE] [] [javax.enterprise.web.util] [tid: _ThreadID=268 _ThreadName=RunLevelControllerThread-1582431811574] [timeMillis: 1582431811674] [levelValue: 1000] [[
+  The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@76be49af]) and a value of type [org.glassfish.admingui.theme.AdminguiThemeContext] (value [org.glassfish.admingui.theme.AdminguiThemeContext@13615c0f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2020-02-23T04:23:31.688+0000] [Payara 5.193] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=268 _ThreadName=RunLevelControllerThread-1582431811574] [timeMillis: 1582431811688] [levelValue: 800] [[
+  Hazelcast Instance Unbound from JNDI at payara/Hazelcast]]
+
+[2020-02-23T04:23:31.688+0000] [Payara 5.193] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=268 _ThreadName=RunLevelControllerThread-1582431811574] [timeMillis: 1582431811688] [levelValue: 800] [[
+  JSR107 Caching Provider Unbound from JNDI at payara/CachingProvider]]
+
+[2020-02-23T04:23:31.688+0000] [Payara 5.193] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=268 _ThreadName=RunLevelControllerThread-1582431811574] [timeMillis: 1582431811688] [levelValue: 800] [[
+  JSR107 Cache Manager Unbound from JNDI at payara/CacheManager]]
+
+[2020-02-23T04:23:31.710+0000] [Payara 5.193] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=268 _ThreadName=RunLevelControllerThread-1582431811574] [timeMillis: 1582431811710] [levelValue: 800] [[
+  Shutdown Hazelcast]]
+
+[2020-02-23T04:23:31.733+0000] [Payara 5.193] [INFO] [] [] [tid: _ThreadID=268 _ThreadName=RunLevelControllerThread-1582431811574] [timeMillis: 1582431811733] [levelValue: 800] [[
+  JdbcRuntimeExtension,  getAllSystemRAResourcesAndPools = [GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool]]]
+
+[2020-02-23T05:02:14.979+0000] [] [INFO] [NCLS-GFLAUNCHER-00005] [javax.enterprise.launcher] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1582434134979] [levelValue: 800] [[
+  JVM invocation command line:
+C:\Program Files\Java\jre1.8.0_231\bin\java.exe
+-cp
+C:/Users/egebu/Documents/Web Applications and Services/Payara/glassfish/modules/glassfish.jar
+-XX:+UnlockDiagnosticVMOptions
+-XX:NewRatio=2
+-Xmx512m
+-Xbootclasspath/p:C:\Users\egebu\Documents\Web Applications and Services\Payara\glassfish/lib/grizzly-npn-bootstrap-1.8.1.jar
+-client
+-javaagent:C:/Users/egebu/Documents/Web Applications and Services/Payara/glassfish/lib/monitor/flashlight-agent.jar
+-Djavax.xml.accessExternalSchema=all
+-Djavax.net.ssl.trustStore=C:\Users\egebu\Documents\Web Applications and Services\Payara\glassfish\domains\domain1/config/cacerts.jks
+-Djdk.tls.rejectClientInitiatedRenegotiation=true
+-Djdk.corba.allowOutputStreamSubclass=true
+-Dfelix.fileinstall.dir=C:\Users\egebu\Documents\Web Applications and Services\Payara\glassfish/modules/autostart/
+-Dorg.glassfish.additionalOSGiBundlesToStart=org.apache.felix.shell,org.apache.felix.gogo.runtime,org.apache.felix.gogo.shell,org.apache.felix.gogo.command,org.apache.felix.shell.remote,org.apache.felix.fileinstall
+-Dcom.sun.aas.installRoot=C:\Users\egebu\Documents\Web Applications and Services\Payara\glassfish
+-Dfelix.fileinstall.poll=5000
+-Djava.security.policy=C:\Users\egebu\Documents\Web Applications and Services\Payara\glassfish\domains\domain1/config/server.policy
+-Djava.endorsed.dirs=C:\Users\egebu\Documents\Web Applications and Services\Payara\glassfish/modules/endorsed;C:\Users\egebu\Documents\Web Applications and Services\Payara\glassfish/lib/endorsed
+-Dosgi.shell.telnet.maxconn=1
+-Dfelix.fileinstall.bundles.startTransient=true
+-Dcom.sun.enterprise.config.config_environment_factory_class=com.sun.enterprise.config.serverbeans.AppserverConfigEnvironmentFactory
+-Dfelix.fileinstall.log.level=2
+-Djavax.net.ssl.keyStore=C:\Users\egebu\Documents\Web Applications and Services\Payara\glassfish\domains\domain1/config/keystore.jks
+-Djava.security.auth.login.config=C:\Users\egebu\Documents\Web Applications and Services\Payara\glassfish\domains\domain1/config/login.conf
+-Dfelix.fileinstall.disableConfigSave=false
+-Dorg.glassfish.grizzly.DEFAULT_MEMORY_MANAGER=org.glassfish.grizzly.memory.HeapMemoryManager
+-Dfelix.fileinstall.bundles.new.start=true
+-Dcom.sun.aas.instanceRoot=C:\Users\egebu\Documents\Web Applications and Services\Payara\glassfish\domains\domain1
+-Dosgi.shell.telnet.port=6666
+-Dgosh.args=--nointeractive
+-Dcom.sun.enterprise.security.httpsOutboundKeyAlias=s1as
+-Dorg.jboss.weld.serialization.beanIdentifierIndexOptimization=false
+-Dosgi.shell.telnet.ip=127.0.0.1
+-DANTLR_USE_DIRECT_CLASS_LOADING=true
+-Djava.awt.headless=true
+-Dcom.ctc.wstx.returnNullForDefaultNamespace=true
+-Djava.ext.dirs=C:\Program Files\Java\jre1.8.0_231/lib/ext;C:\Program Files\Java\jre1.8.0_231/jre/lib/ext;C:\Users\egebu\Documents\Web Applications and Services\Payara\glassfish\domains\domain1/lib/ext
+-Djdbc.drivers=org.apache.derby.jdbc.ClientDriver
+-Dorg.glassfish.grizzly.nio.DefaultSelectorHandler.force-selector-spin-detection=true
+-Djava.library.path=C:/Users/egebu/Documents/Web Applications and Services/Payara/glassfish/lib;C:/Program Files (x86)/Common Files/Oracle/Java/javapath;C:/Windows/Sun/Java/bin;C:/Windows/System32;C:/Windows;C:/Program Files/Haskell/bin;C:/Program Files/Haskell Platform/8.6.5/lib/extralibs/bin;C:/Program Files/Haskell Platform/8.6.5/bin;C:/Program Files (x86)/Razer/ChromaBroadcast/bin;C:/Program Files/Razer/ChromaBroadcast/bin;C:/Program Files (x86)/Razer Chroma SDK/bin;C:/Program Files/Razer Chroma SDK/bin;C:/ProgramData/Oracle/Java/javapath;C:/Windows/System32/wbem;C:/Windows/System32/WindowsPowerShell/v1.0;C:/Windows/System32/OpenSSH;C:/Program Files/PuTTY;C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps;C:/Users/egebu/AppData/Local/Microsoft/WindowsApps;C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR;C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common;C:/Program Files/Haskell Platform/8.6.5/mingw/bin;C:/Program Files/nodejs;C:/Users/egebu/AppData/Roaming/cabal/bin;C:/Users/egebu/AppData/Roaming/local/bin;C:/Users/egebu/AppData/Roaming/npm;C:/Users/egebu/AppData/Local/atom/bin;C:/Users/egebu/Documents/Web Applications and Services/Payara/bin
+com.sun.enterprise.glassfish.bootstrap.ASMain
+-upgrade
+false
+-domaindir
+C:/Users/egebu/Documents/Web Applications and Services/Payara/glassfish/domains/domain1
+-read-stdin
+true
+-asadmin-args
+--host,,,localhost,,,--port,,,4848,,,--secure=false,,,--terse=false,,,--extraterse=false,,,--echo=false,,,--interactive=true,,,--autoname=false,,,start-domain,,,--verbose=false,,,--watchdog=false,,,--debug=false,,,--domaindir,,,C:\Users\egebu\Documents\Web Applications and Services\Payara\glassfish\domains,,,domain1
+-domainname
+domain1
+-instancename
+server
+-type
+DAS
+-verbose
+false
+-asadmin-classpath
+C:/Users/egebu/Documents/Web Applications and Services/Payara/glassfish/lib/client/appserver-cli.jar
+-debug
+false
+-asadmin-classname
+com.sun.enterprise.admin.cli.AdminMain
+-watchdog
+false]]
+
+[2020-02-23T05:02:16.930+0000] [Payara 5.193] [INFO] [NCLS-LOGGING-00009] [javax.enterprise.logging] [tid: _ThreadID=31 _ThreadName=RunLevelControllerThread-1582434136844] [timeMillis: 1582434136930] [levelValue: 800] [[
+  Running Payara Version: Payara Server  5.193 #badassfish (build 252)]]
+
+[2020-02-23T05:02:16.935+0000] [Payara 5.193] [INFO] [NCLS-LOGGING-00010] [javax.enterprise.logging] [tid: _ThreadID=31 _ThreadName=RunLevelControllerThread-1582434136844] [timeMillis: 1582434136935] [levelValue: 800] [[
+  Server log file is using Formatter class: com.sun.enterprise.server.logging.ODLLogFormatter]]
+
+[2020-02-23T05:02:17.222+0000] [Payara 5.193] [INFO] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=30 _ThreadName=RunLevelControllerThread-1582434136843] [timeMillis: 1582434137222] [levelValue: 800] [[
+  Registered fish.payara.ha.hazelcast.store.HazelcastBackingStoreFactoryProxy for persistence-type = hazelcast in BackingStoreFactoryRegistry]]
+
+[2020-02-23T05:02:17.289+0000] [Payara 5.193] [INFO] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=33 _ThreadName=RunLevelControllerThread-1582434136848] [timeMillis: 1582434137289] [levelValue: 800] [[
+  Network Listener http-listener-1 started in: 10ms - bound to [/0.0.0.0:8080]]]
+
+[2020-02-23T05:02:17.306+0000] [Payara 5.193] [INFO] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=33 _ThreadName=RunLevelControllerThread-1582434136848] [timeMillis: 1582434137306] [levelValue: 800] [[
+  Network Listener http-listener-2 started in: 1ms - bound to [/0.0.0.0:8181]]]
+
+[2020-02-23T05:02:17.313+0000] [Payara 5.193] [INFO] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=33 _ThreadName=RunLevelControllerThread-1582434136848] [timeMillis: 1582434137313] [levelValue: 800] [[
+  Network Listener admin-listener started in: 1ms - bound to [/0.0.0.0:4848]]]
+
+[2020-02-23T05:02:17.315+0000] [Payara 5.193] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=33 _ThreadName=RunLevelControllerThread-1582434136848] [timeMillis: 1582434137315] [levelValue: 800] [[
+  Grizzly 2.4.3 started in: 205ms - bound to [http-listener-1:8080, http-listener-2:8181, admin-listener:4848]]]
+
+[2020-02-23T05:02:17.377+0000] [Payara 5.193] [INFO] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=33 _ThreadName=RunLevelControllerThread-1582434136848] [timeMillis: 1582434137377] [levelValue: 800] [[
+  Network Listener iiop-service started in: 2ms - bound to [/0.0.0.0:3700]]]
+
+[2020-02-23T05:02:17.379+0000] [Payara 5.193] [INFO] [] [org.hibernate.validator.internal.util.Version] [tid: _ThreadID=30 _ThreadName=RunLevelControllerThread-1582434136843] [timeMillis: 1582434137379] [levelValue: 800] [[
+  HV000001: Hibernate Validator 6.0.16.Final]]
+
+[2020-02-23T05:02:17.752+0000] [Payara 5.193] [INFO] [] [javax.enterprise.resource.corba.org.glassfish.enterprise.iiop.api] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1582434136848] [timeMillis: 1582434137752] [levelValue: 800] [[
+  GlassFishORBFactory service initialized.]]
+
+[2020-02-23T05:02:18.095+0000] [Payara 5.193] [SEVERE] [NCLS-SECURITY-05054] [javax.enterprise.system.security.ssl] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1582434136848] [timeMillis: 1582434138095] [levelValue: 1000] [[
+  The SSL certificate has expired: [
+[
+  Version: V3
+  Subject: CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 21877342614735064986586094209008949861633415438321046094865735894101046869669024974234189221129376235137504163448391667494521959302368300673495711648664420351966300087244240539893392975177816108541817252818998001932142985065266407504518566289301698937041931668276581800733716890145024940625536991682725365140451115767110550542345758164504698636529042078537609343076050570785483670809094993963575569689277704991843533760219663288836022206035538841969109577376809337618824179167781883694301066738001489513517818892302945620562766589172426570508291886401623875028645352783701438149952282706361006848685772598444243814369
+  public exponent: 65537
+  Validity: [From: Fri Dec 24 17:50:51 GMT 1999,
+               To: Tue Dec 24 18:20:51 GMT 2019]
+  Issuer: CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net
+  SerialNumber: [    3863b966]
+
+Certificate Extensions: 4
+[1]: ObjectId: 1.2.840.113533.7.65.0 Criticality=false
+Extension unknown: DER encoded OCTET string =
+0000: 04 10 30 0E 1B 08 56 35   2E 30 3A 34 2E 30 03 02  ..0...V5.0:4.0..
+0010: 04 90                                              ..
+
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 55 E4 81 D1 11 80 BE D8   89 B9 08 A3 31 F9 A1 24  U...........1..$
+0010: 09 16 B9 70                                        ...p
+]
+]
+
+[3]: ObjectId: 2.16.840.1.113730.1.1 Criticality=false
+NetscapeCertType [
+   SSL CA
+   S/MIME CA
+   Object Signing CA]
+
+[4]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 55 E4 81 D1 11 80 BE D8   89 B9 08 A3 31 F9 A1 24  U...........1..$
+0010: 09 16 B9 70                                        ...p
+]
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: 59 47 AC 21 84 8A 17 C9   9C 89 53 1E BA 80 85 1A  YG.!......S.....
+0010: C6 3C 4E 3E B1 9C B6 7C   C6 92 5D 18 64 02 E3 D3  .<N>......].d...
+0020: 06 08 11 61 7C 63 E3 2B   9D 31 03 70 76 D2 A3 28  ...a.c.+.1.pv..(
+0030: A0 F4 BB 9A 63 73 ED 6D   E5 2A DB ED 14 A9 2B C6  ....cs.m.*....+.
+0040: 36 11 D0 2B EB 07 8B A5   DA 9E 5C 19 9D 56 12 F5  6..+......\..V..
+0050: 54 29 C8 05 ED B2 12 2A   8D F4 03 1B FF E7 92 10  T).....*........
+0060: 87 B0 3A B5 C3 9D 05 37   12 A3 C7 F4 15 B9 D5 A4  ..:....7........
+0070: 39 16 9B 53 3A 23 91 F1   A8 82 A2 6A 88 68 C1 79  9..S:#.....j.h.y
+0080: 02 22 BC AA A6 D6 AE DF   B0 14 5F B8 87 D0 DD 7C  ."........_.....
+0090: 7F 7B FF AF 1C CF E6 DB   07 AD 5E DB 85 9D D0 2B  ..........^....+
+00A0: 0D 33 DB 04 D1 E6 49 40   13 2B 76 FB 3E E9 9C 89  .3....I@.+v.>...
+00B0: 0F 15 CE 18 B0 85 78 21   4F 6B 4F 0E FA 36 67 CD  ......x!OkO..6g.
+00C0: 07 F2 FF 08 D0 E2 DE D9   BF 2A AF B8 87 86 21 3C  .........*....!<
+00D0: 04 CA B7 94 68 7F CF 3C   E9 98 D7 38 FF EC C0 D9  ....h..<...8....
+00E0: 50 F0 2E 4B 58 AE 46 6F   D0 2E C3 60 DA 72 55 72  P..KX.Fo...`.rUr
+00F0: BD 4C 45 9E 61 BA BF 84   81 92 03 D1 D2 69 7C C5  .LE.a........i..
+
+]]]
+
+[2020-02-23T05:02:18.111+0000] [Payara 5.193] [INFO] [NCLS-SECURITY-01002] [javax.enterprise.system.core.security] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1582434136848] [timeMillis: 1582434138111] [levelValue: 800] [[
+  Java security manager is disabled.]]
+
+[2020-02-23T05:02:18.112+0000] [Payara 5.193] [INFO] [NCLS-SECURITY-01010] [javax.enterprise.system.core.security] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1582434136848] [timeMillis: 1582434138112] [levelValue: 800] [[
+  Entering Security Startup Service.]]
+
+[2020-02-23T05:02:18.115+0000] [Payara 5.193] [INFO] [NCLS-SECURITY-01143] [javax.enterprise.system.core.security] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1582434136848] [timeMillis: 1582434138115] [levelValue: 800] [[
+  Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.]]
+
+[2020-02-23T05:02:18.158+0000] [Payara 5.193] [INFO] [NCLS-SECURITY-01011] [javax.enterprise.system.core.security] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1582434136848] [timeMillis: 1582434138158] [levelValue: 800] [[
+  Security Service(s) started successfully.]]
+
+[2020-02-23T05:02:18.463+0000] [Payara 5.193] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1582434136848] [timeMillis: 1582434138463] [levelValue: 800] [[
+  Created HTTP listener http-listener-1 on host/port 0.0.0.0:8080]]
+
+[2020-02-23T05:02:18.467+0000] [Payara 5.193] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1582434136848] [timeMillis: 1582434138467] [levelValue: 800] [[
+  Created HTTP listener http-listener-2 on host/port 0.0.0.0:8181]]
+
+[2020-02-23T05:02:18.468+0000] [Payara 5.193] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1582434136848] [timeMillis: 1582434138468] [levelValue: 800] [[
+  Created HTTP listener admin-listener on host/port 0.0.0.0:4848]]
+
+[2020-02-23T05:02:18.487+0000] [Payara 5.193] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1582434136848] [timeMillis: 1582434138487] [levelValue: 800] [[
+  Created virtual server server]]
+
+[2020-02-23T05:02:18.489+0000] [Payara 5.193] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1582434136848] [timeMillis: 1582434138489] [levelValue: 800] [[
+  Created virtual server __asadmin]]
+
+[2020-02-23T05:02:18.938+0000] [Payara 5.193] [INFO] [AS-WEB-GLUE-00201] [javax.enterprise.web] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1582434136848] [timeMillis: 1582434138938] [levelValue: 800] [[
+  Virtual server server loaded default web module ]]
+
+[2020-02-23T05:02:20.194+0000] [Payara 5.193] [INFO] [] [org.jboss.weld.Version] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1582434136848] [timeMillis: 1582434140194] [levelValue: 800] [[
+  WELD-000900: 3.1.1 (Final)]]
+
+[2020-02-23T05:02:20.357+0000] [Payara 5.193] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1582434136848] [timeMillis: 1582434140357] [levelValue: 800] [[
+  Portable JNDI names for EJB CommentStore: [java:global/ServletCommentStore-1.0-SNAPSHOT/CommentStore!com.eb431.servletcommentstore.CommentStore, java:global/ServletCommentStore-1.0-SNAPSHOT/CommentStore]]]
+
+[2020-02-23T05:02:21.238+0000] [Payara 5.193] [INFO] [NCLS-REST-00001] [javax.enterprise.admin.rest] [tid: _ThreadID=122 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1582434141238] [levelValue: 800] [[
+  Listening to REST requests at context: /management/domain.]]
+
+[2020-02-23T05:02:22.067+0000] [Payara 5.193] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=31 _ThreadName=RunLevelControllerThread-1582434136844] [timeMillis: 1582434142067] [levelValue: 800] [[
+  Hazelcast Instance Bound to JNDI at payara/Hazelcast]]
+
+[2020-02-23T05:02:22.067+0000] [Payara 5.193] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=31 _ThreadName=RunLevelControllerThread-1582434136844] [timeMillis: 1582434142067] [levelValue: 800] [[
+  JSR107 Caching Provider Bound to JNDI at payara/CachingProvider]]
+
+[2020-02-23T05:02:22.068+0000] [Payara 5.193] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=31 _ThreadName=RunLevelControllerThread-1582434136844] [timeMillis: 1582434142068] [levelValue: 800] [[
+  JSR107 Default Cache Manager Bound to JNDI at payara/CacheManager]]
+
+[2020-02-23T05:02:23.055+0000] [Payara 5.193] [INFO] [] [fish.payara.micro.cdi.extension.ClusteredCDIEventBusImpl] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1582434136848] [timeMillis: 1582434143055] [levelValue: 800] [[
+  Clustered CDI Event bus initialized]]
+
+[2020-02-23T05:02:23.068+0000] [Payara 5.193] [INFO] [NCLS-CORE-00022] [javax.enterprise.system.core] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1582434136848] [timeMillis: 1582434143068] [levelValue: 800] [[
+  Loading application ServletCommentStore-1.0-SNAPSHOT done in 5,766 ms]]
+
+[2020-02-23T05:02:23.124+0000] [Payara 5.193] [INFO] [] [org.glassfish.soteria.servlet.SamRegistrationInstaller] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1582434136848] [timeMillis: 1582434143124] [levelValue: 800] [[
+  Initializing Soteria 1.1-b01 for context '/ServletCommentStore']]
+
+[2020-02-23T05:02:23.284+0000] [Payara 5.193] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1582434136848] [timeMillis: 1582434143284] [levelValue: 800] [[
+  Loading application [ServletCommentStore-1.0-SNAPSHOT] at [/ServletCommentStore]]]
+
+[2020-02-23T05:02:23.313+0000] [Payara 5.193] [INFO] [NCLS-CORE-00017] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1582434143313] [levelValue: 800] [[
+  Payara Server  5.193 #badassfish (252) startup time : Felix (1,605ms), startup services(6,474ms), total(8,079ms)]]
+
+[2020-02-23T05:02:23.313+0000] [Payara 5.193] [INFO] [] [fish.payara.nucleus.cluster.PayaraCluster] [tid: _ThreadID=145 _ThreadName=Executor-Service-2] [timeMillis: 1582434143313] [levelValue: 800] [[
+  Data Grid Status 
+Payara Data Grid State: DG Version: 35 DG Name: development DG Size: 1
+Instances: {
+ DataGrid: development Instance Group: MicroShoal Name: server Lite: false This: true UUID: 82b58c20-e32c-439f-9235-b785748f32ad Address: /192.168.14.1:4900
+}]]
+
+[2020-02-23T05:02:23.315+0000] [Payara 5.193] [INFO] [] [fish.payara.nucleus.notification.NotificationService] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1582434143315] [levelValue: 800] [[
+  Payara Notification Service bootstrapped with configuration: NotificationExecutionOptions{enabled=true, notifierConfigurationExecutionOptionsList={LOG=LogNotifierConfigurationExecutionOptions{useSeparateLogFile=false} NotifierConfigurationExecutionOptions{notifierType=LOG, enabled=true, noisy=true}}}]]
+
+[2020-02-23T05:02:23.410+0000] [Payara 5.193] [INFO] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=32 _ThreadName=RunLevelControllerThread-1582434136848] [timeMillis: 1582434143410] [levelValue: 800] [[
+  Network Listener JMS_PROXY_default_JMS_host started in: 1ms - bound to [/0.0.0.0:7676]]]
+
+[2020-02-23T05:02:23.484+0000] [Payara 5.193] [INFO] [NCLS-JMX-00005] [javax.enterprise.system.jmx] [tid: _ThreadID=156 _ThreadName=Thread-12] [timeMillis: 1582434143484] [levelValue: 800] [[
+  JMXStartupService has started JMXConnector on JMXService URL service:jmx:rmi://0.0.0.0:8686/jndi/rmi://0.0.0.0:8686/jmxrmi]]
+
+[2020-02-23T05:02:23.676+0000] [Payara 5.193] [INFO] [] [org.jvnet.hk2.osgiadapter] [tid: _ThreadID=21 _ThreadName=FelixStartLevel] [timeMillis: 1582434143676] [levelValue: 800] [[
+  Skipping registration of inhabitant for service reference [org.osgi.service.metatype.MetaTypeProvider] as the service object could not be obtained.]]
+
+[2020-02-23T05:02:23.835+0000] [Payara 5.193] [INFO] [NCLS-CORE-00022] [javax.enterprise.system.core] [tid: _ThreadID=121 _ThreadName=Thread-11] [timeMillis: 1582434143835] [levelValue: 800] [[
+  Loading application __admingui done in 523 ms]]
+
+[2020-02-23T05:02:24.733+0000] [Payara 5.193] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=121 _ThreadName=Thread-11] [timeMillis: 1582434144733] [levelValue: 800] [[
+  Initializing Mojarra 2.3.9.payara-p3 for context '']]
+
+[2020-02-23T05:02:25.474+0000] [Payara 5.193] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=121 _ThreadName=Thread-11] [timeMillis: 1582434145474] [levelValue: 800] [[
+  Loading application [__admingui] at [/]]]
+
+[2020-02-23T05:02:26.485+0000] [Payara 5.193] [INFO] [] [javax.enterprise.system.container.web.com.sun.web.security] [tid: _ThreadID=53 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1582434146485] [levelValue: 800] [[
+  Context path from ServletContext:  differs from path from bundle: /]]
+
+[2020-02-23T05:02:26.822+0000] [Payara 5.193] [SEVERE] [NCLS-SECURITY-05054] [javax.enterprise.system.security.ssl] [tid: _ThreadID=53 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1582434146822] [levelValue: 1000] [[
+  The SSL certificate has expired: [
+[
+  Version: V3
+  Subject: CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 21877342614735064986586094209008949861633415438321046094865735894101046869669024974234189221129376235137504163448391667494521959302368300673495711648664420351966300087244240539893392975177816108541817252818998001932142985065266407504518566289301698937041931668276581800733716890145024940625536991682725365140451115767110550542345758164504698636529042078537609343076050570785483670809094993963575569689277704991843533760219663288836022206035538841969109577376809337618824179167781883694301066738001489513517818892302945620562766589172426570508291886401623875028645352783701438149952282706361006848685772598444243814369
+  public exponent: 65537
+  Validity: [From: Fri Dec 24 17:50:51 GMT 1999,
+               To: Tue Dec 24 18:20:51 GMT 2019]
+  Issuer: CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net
+  SerialNumber: [    3863b966]
+
+Certificate Extensions: 4
+[1]: ObjectId: 1.2.840.113533.7.65.0 Criticality=false
+Extension unknown: DER encoded OCTET string =
+0000: 04 10 30 0E 1B 08 56 35   2E 30 3A 34 2E 30 03 02  ..0...V5.0:4.0..
+0010: 04 90                                              ..
+
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 55 E4 81 D1 11 80 BE D8   89 B9 08 A3 31 F9 A1 24  U...........1..$
+0010: 09 16 B9 70                                        ...p
+]
+]
+
+[3]: ObjectId: 2.16.840.1.113730.1.1 Criticality=false
+NetscapeCertType [
+   SSL CA
+   S/MIME CA
+   Object Signing CA]
+
+[4]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 55 E4 81 D1 11 80 BE D8   89 B9 08 A3 31 F9 A1 24  U...........1..$
+0010: 09 16 B9 70                                        ...p
+]
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: 59 47 AC 21 84 8A 17 C9   9C 89 53 1E BA 80 85 1A  YG.!......S.....
+0010: C6 3C 4E 3E B1 9C B6 7C   C6 92 5D 18 64 02 E3 D3  .<N>......].d...
+0020: 06 08 11 61 7C 63 E3 2B   9D 31 03 70 76 D2 A3 28  ...a.c.+.1.pv..(
+0030: A0 F4 BB 9A 63 73 ED 6D   E5 2A DB ED 14 A9 2B C6  ....cs.m.*....+.
+0040: 36 11 D0 2B EB 07 8B A5   DA 9E 5C 19 9D 56 12 F5  6..+......\..V..
+0050: 54 29 C8 05 ED B2 12 2A   8D F4 03 1B FF E7 92 10  T).....*........
+0060: 87 B0 3A B5 C3 9D 05 37   12 A3 C7 F4 15 B9 D5 A4  ..:....7........
+0070: 39 16 9B 53 3A 23 91 F1   A8 82 A2 6A 88 68 C1 79  9..S:#.....j.h.y
+0080: 02 22 BC AA A6 D6 AE DF   B0 14 5F B8 87 D0 DD 7C  ."........_.....
+0090: 7F 7B FF AF 1C CF E6 DB   07 AD 5E DB 85 9D D0 2B  ..........^....+
+00A0: 0D 33 DB 04 D1 E6 49 40   13 2B 76 FB 3E E9 9C 89  .3....I@.+v.>...
+00B0: 0F 15 CE 18 B0 85 78 21   4F 6B 4F 0E FA 36 67 CD  ......x!OkO..6g.
+00C0: 07 F2 FF 08 D0 E2 DE D9   BF 2A AF B8 87 86 21 3C  .........*....!<
+00D0: 04 CA B7 94 68 7F CF 3C   E9 98 D7 38 FF EC C0 D9  ....h..<...8....
+00E0: 50 F0 2E 4B 58 AE 46 6F   D0 2E C3 60 DA 72 55 72  P..KX.Fo...`.rUr
+00F0: BD 4C 45 9E 61 BA BF 84   81 92 03 D1 D2 69 7C C5  .LE.a........i..
+
+]]]
+
+[2020-02-23T05:02:38.708+0000] [Payara 5.193] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=122 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1582434158708] [levelValue: 800] [[
+  Portable JNDI names for EJB CommentStore: [java:global/ServletCommentStore/CommentStore!com.eb431.servletcommentstore.CommentStore, java:global/ServletCommentStore/CommentStore]]]
+
+[2020-02-23T05:02:38.965+0000] [Payara 5.193] [INFO] [] [fish.payara.micro.cdi.extension.ClusteredCDIEventBusImpl] [tid: _ThreadID=122 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1582434158965] [levelValue: 800] [[
+  Clustered CDI Event bus initialized]]
+
+[2020-02-23T05:02:39.000+0000] [Payara 5.193] [INFO] [] [org.glassfish.soteria.servlet.SamRegistrationInstaller] [tid: _ThreadID=122 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1582434159000] [levelValue: 800] [[
+  Initializing Soteria 1.1-b01 for context '/ServletCommentStore']]
+
+[2020-02-23T05:02:39.096+0000] [Payara 5.193] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=122 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1582434159096] [levelValue: 800] [[
+  Loading application [ServletCommentStore] at [/ServletCommentStore]]]
+
+[2020-02-23T05:02:39.148+0000] [Payara 5.193] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=122 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1582434159148] [levelValue: 800] [[
+  ServletCommentStore was successfully deployed in 560 milliseconds.]]
+
+[2020-02-23T05:02:39.786+0000] [Payara 5.193] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=122 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1582434159786] [levelValue: 800] [[
+  Portable JNDI names for EJB CommentStore: [java:global/ServletCommentStore/CommentStore!com.eb431.servletcommentstore.CommentStore, java:global/ServletCommentStore/CommentStore]]]
+
+[2020-02-23T05:02:40.003+0000] [Payara 5.193] [INFO] [] [fish.payara.micro.cdi.extension.ClusteredCDIEventBusImpl] [tid: _ThreadID=122 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1582434160003] [levelValue: 800] [[
+  Clustered CDI Event bus initialized]]
+
+[2020-02-23T05:02:40.037+0000] [Payara 5.193] [INFO] [] [org.glassfish.soteria.servlet.SamRegistrationInstaller] [tid: _ThreadID=122 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1582434160037] [levelValue: 800] [[
+  Initializing Soteria 1.1-b01 for context '/ServletCommentStore']]
+
+[2020-02-23T05:02:40.149+0000] [Payara 5.193] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=122 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1582434160149] [levelValue: 800] [[
+  Loading application [ServletCommentStore] at [/ServletCommentStore]]]
+
+[2020-02-23T05:02:40.180+0000] [Payara 5.193] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=122 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1582434160180] [levelValue: 800] [[
+  ServletCommentStore was successfully deployed in 942 milliseconds.]]
+
+[2020-02-23T05:03:08.908+0000] [Payara 5.193] [SEVERE] [NCLS-SECURITY-05054] [javax.enterprise.system.security.ssl] [tid: _ThreadID=211 _ThreadName=admin-thread-pool::admin-listener(4)] [timeMillis: 1582434188908] [levelValue: 1000] [[
+  The SSL certificate has expired: [
+[
+  Version: V3
+  Subject: CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 21877342614735064986586094209008949861633415438321046094865735894101046869669024974234189221129376235137504163448391667494521959302368300673495711648664420351966300087244240539893392975177816108541817252818998001932142985065266407504518566289301698937041931668276581800733716890145024940625536991682725365140451115767110550542345758164504698636529042078537609343076050570785483670809094993963575569689277704991843533760219663288836022206035538841969109577376809337618824179167781883694301066738001489513517818892302945620562766589172426570508291886401623875028645352783701438149952282706361006848685772598444243814369
+  public exponent: 65537
+  Validity: [From: Fri Dec 24 17:50:51 GMT 1999,
+               To: Tue Dec 24 18:20:51 GMT 2019]
+  Issuer: CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net
+  SerialNumber: [    3863b966]
+
+Certificate Extensions: 4
+[1]: ObjectId: 1.2.840.113533.7.65.0 Criticality=false
+Extension unknown: DER encoded OCTET string =
+0000: 04 10 30 0E 1B 08 56 35   2E 30 3A 34 2E 30 03 02  ..0...V5.0:4.0..
+0010: 04 90                                              ..
+
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 55 E4 81 D1 11 80 BE D8   89 B9 08 A3 31 F9 A1 24  U...........1..$
+0010: 09 16 B9 70                                        ...p
+]
+]
+
+[3]: ObjectId: 2.16.840.1.113730.1.1 Criticality=false
+NetscapeCertType [
+   SSL CA
+   S/MIME CA
+   Object Signing CA]
+
+[4]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 55 E4 81 D1 11 80 BE D8   89 B9 08 A3 31 F9 A1 24  U...........1..$
+0010: 09 16 B9 70                                        ...p
+]
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: 59 47 AC 21 84 8A 17 C9   9C 89 53 1E BA 80 85 1A  YG.!......S.....
+0010: C6 3C 4E 3E B1 9C B6 7C   C6 92 5D 18 64 02 E3 D3  .<N>......].d...
+0020: 06 08 11 61 7C 63 E3 2B   9D 31 03 70 76 D2 A3 28  ...a.c.+.1.pv..(
+0030: A0 F4 BB 9A 63 73 ED 6D   E5 2A DB ED 14 A9 2B C6  ....cs.m.*....+.
+0040: 36 11 D0 2B EB 07 8B A5   DA 9E 5C 19 9D 56 12 F5  6..+......\..V..
+0050: 54 29 C8 05 ED B2 12 2A   8D F4 03 1B FF E7 92 10  T).....*........
+0060: 87 B0 3A B5 C3 9D 05 37   12 A3 C7 F4 15 B9 D5 A4  ..:....7........
+0070: 39 16 9B 53 3A 23 91 F1   A8 82 A2 6A 88 68 C1 79  9..S:#.....j.h.y
+0080: 02 22 BC AA A6 D6 AE DF   B0 14 5F B8 87 D0 DD 7C  ."........_.....
+0090: 7F 7B FF AF 1C CF E6 DB   07 AD 5E DB 85 9D D0 2B  ..........^....+
+00A0: 0D 33 DB 04 D1 E6 49 40   13 2B 76 FB 3E E9 9C 89  .3....I@.+v.>...
+00B0: 0F 15 CE 18 B0 85 78 21   4F 6B 4F 0E FA 36 67 CD  ......x!OkO..6g.
+00C0: 07 F2 FF 08 D0 E2 DE D9   BF 2A AF B8 87 86 21 3C  .........*....!<
+00D0: 04 CA B7 94 68 7F CF 3C   E9 98 D7 38 FF EC C0 D9  ....h..<...8....
+00E0: 50 F0 2E 4B 58 AE 46 6F   D0 2E C3 60 DA 72 55 72  P..KX.Fo...`.rUr
+00F0: BD 4C 45 9E 61 BA BF 84   81 92 03 D1 D2 69 7C C5  .LE.a........i..
+
+]]]
+
+[2020-02-23T05:03:08.941+0000] [Payara 5.193] [INFO] [] [org.glassfish.admingui] [tid: _ThreadID=211 _ThreadName=admin-thread-pool::admin-listener(4)] [timeMillis: 1582434188941] [levelValue: 800] [[
+  Redirecting to /]]
+
+[2020-02-23T05:03:09.106+0000] [Payara 5.193] [INFO] [] [org.glassfish.admingui] [tid: _ThreadID=53 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1582434189106] [levelValue: 800] [[
+  Admin Console: Initializing Session Attributes...]]
+
+[2020-02-23T05:03:12.755+0000] [Payara 5.193] [INFO] [NCLS-REST-00001] [javax.enterprise.admin.rest] [tid: _ThreadID=211 _ThreadName=admin-thread-pool::admin-listener(4)] [timeMillis: 1582434192755] [levelValue: 800] [[
+  Listening to REST requests at context: /command/domain.]]
+
+[2020-02-23T05:05:49.219+0000] [Payara 5.193] [INFO] [NCLS-CORE-00092] [javax.enterprise.system.core] [tid: _ThreadID=216 _ThreadName=Thread-31] [timeMillis: 1582434349219] [levelValue: 800] [[
+  Server shutdown initiated]]
+
+[2020-02-23T05:05:49.231+0000] [Payara 5.193] [INFO] [] [] [tid: _ThreadID=216 _ThreadName=Thread-31] [timeMillis: 1582434349231] [levelValue: 800] [[
+  FileMonitoring shutdown]]
+
+[2020-02-23T05:05:49.237+0000] [Payara 5.193] [INFO] [NCLS-JMX-00002] [javax.enterprise.system.jmx] [tid: _ThreadID=216 _ThreadName=Thread-31] [timeMillis: 1582434349237] [levelValue: 800] [[
+  JMXStartupService: Stopped JMXConnectorServer: null]]
+
+[2020-02-23T05:05:49.237+0000] [Payara 5.193] [INFO] [NCLS-JMX-00001] [javax.enterprise.system.jmx] [tid: _ThreadID=216 _ThreadName=Thread-31] [timeMillis: 1582434349237] [levelValue: 800] [[
+  JMXStartupService and JMXConnectors have been shut down.]]
+
+[2020-02-23T05:05:49.349+0000] [Payara 5.193] [SEVERE] [] [javax.enterprise.web.util] [tid: _ThreadID=219 _ThreadName=RunLevelControllerThread-1582434349264] [timeMillis: 1582434349349] [levelValue: 1000] [[
+  The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4bc8888d]) and a value of type [org.glassfish.admingui.theme.AdminguiThemeContext] (value [org.glassfish.admingui.theme.AdminguiThemeContext@369c995c]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2020-02-23T05:05:49.349+0000] [Payara 5.193] [SEVERE] [] [javax.enterprise.web.util] [tid: _ThreadID=219 _ThreadName=RunLevelControllerThread-1582434349264] [timeMillis: 1582434349349] [levelValue: 1000] [[
+  The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4bc8888d]) and a value of type [org.glassfish.admingui.theme.AdminguiThemeContext] (value [org.glassfish.admingui.theme.AdminguiThemeContext@369c995c]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2020-02-23T05:05:49.349+0000] [Payara 5.193] [SEVERE] [] [javax.enterprise.web.util] [tid: _ThreadID=219 _ThreadName=RunLevelControllerThread-1582434349264] [timeMillis: 1582434349349] [levelValue: 1000] [[
+  The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4bc8888d]) and a value of type [org.glassfish.admingui.theme.AdminguiThemeContext] (value [org.glassfish.admingui.theme.AdminguiThemeContext@369c995c]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2020-02-23T05:05:49.350+0000] [Payara 5.193] [SEVERE] [] [javax.enterprise.web.util] [tid: _ThreadID=219 _ThreadName=RunLevelControllerThread-1582434349264] [timeMillis: 1582434349350] [levelValue: 1000] [[
+  The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4bc8888d]) and a value of type [org.glassfish.admingui.theme.AdminguiThemeContext] (value [org.glassfish.admingui.theme.AdminguiThemeContext@369c995c]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2020-02-23T05:05:49.350+0000] [Payara 5.193] [SEVERE] [] [javax.enterprise.web.util] [tid: _ThreadID=219 _ThreadName=RunLevelControllerThread-1582434349264] [timeMillis: 1582434349350] [levelValue: 1000] [[
+  The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4bc8888d]) and a value of type [org.glassfish.admingui.theme.AdminguiThemeContext] (value [org.glassfish.admingui.theme.AdminguiThemeContext@369c995c]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2020-02-23T05:05:49.350+0000] [Payara 5.193] [SEVERE] [] [javax.enterprise.web.util] [tid: _ThreadID=219 _ThreadName=RunLevelControllerThread-1582434349264] [timeMillis: 1582434349350] [levelValue: 1000] [[
+  The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4bc8888d]) and a value of type [org.glassfish.admingui.theme.AdminguiThemeContext] (value [org.glassfish.admingui.theme.AdminguiThemeContext@369c995c]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2020-02-23T05:05:49.364+0000] [Payara 5.193] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=219 _ThreadName=RunLevelControllerThread-1582434349264] [timeMillis: 1582434349364] [levelValue: 800] [[
+  Hazelcast Instance Unbound from JNDI at payara/Hazelcast]]
+
+[2020-02-23T05:05:49.364+0000] [Payara 5.193] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=219 _ThreadName=RunLevelControllerThread-1582434349264] [timeMillis: 1582434349364] [levelValue: 800] [[
+  JSR107 Caching Provider Unbound from JNDI at payara/CachingProvider]]
+
+[2020-02-23T05:05:49.364+0000] [Payara 5.193] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=219 _ThreadName=RunLevelControllerThread-1582434349264] [timeMillis: 1582434349364] [levelValue: 800] [[
+  JSR107 Cache Manager Unbound from JNDI at payara/CacheManager]]
+
+[2020-02-23T05:05:49.385+0000] [Payara 5.193] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=219 _ThreadName=RunLevelControllerThread-1582434349264] [timeMillis: 1582434349385] [levelValue: 800] [[
+  Shutdown Hazelcast]]
+
+[2020-02-23T05:05:49.413+0000] [Payara 5.193] [INFO] [] [] [tid: _ThreadID=219 _ThreadName=RunLevelControllerThread-1582434349264] [timeMillis: 1582434349413] [levelValue: 800] [[
+  JdbcRuntimeExtension,  getAllSystemRAResourcesAndPools = [GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool]]]
+

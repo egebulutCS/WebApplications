@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Index</title>
+    </h:head>
+    <h:body>
+        <h:form id="index_form">
+            <h:inputText id="name" label="Username" maxlength="15" required="true" requiredMessage="Name cannot be empty" title="name" value="Username"></h:inputText>
+            <h:inputText id="date" label="Date" maxlength="15" required="true" requiredMessage="Date cannot be empty" title="date" value="21/02/2020">
+                <f:convertDateTime pattern="dd/mm/yyyy"></f:convertDateTime>
+            </h:inputText>
+            <h:inputTextarea id="comment" label="Comment" required="true" requiredMessage="Comment cannot be empty" title="comment" value="comment">
+                <f:validateLength maximum="150"></f:validateLength>
+            </h:inputTextarea>
+            <h:commandButton id="submit" title="Submit" label="Submit" type="submit" value="Submit"></h:commandButton>
+            <h:commandButton id="reset" title="Reset" label="Reset" type="reset" value="Reset"></h:commandButton>
+        </h:form>
+    </h:body>
+</html>
+

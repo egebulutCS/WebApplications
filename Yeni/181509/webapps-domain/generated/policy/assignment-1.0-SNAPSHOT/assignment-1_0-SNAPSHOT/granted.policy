@@ -1,0 +1,37 @@
+/* AUTOMATICALLY GENERATED ON Wed May 06 02:04:35 BST 2020*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.WebResourcePermission "/:/faces/Users/*:/faces/Admins/*";
+  permission javax.security.jacc.WebUserDataPermission "/faces/Users/*", ":CONFIDENTIAL";
+  permission javax.security.jacc.WebUserDataPermission "/faces/Admins/*", ":CONFIDENTIAL";
+  permission javax.security.jacc.WebUserDataPermission "/:/faces/Users/*:/faces/Admins/*";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "**";
+  permission javax.security.jacc.WebRoleRefPermission "", "**";
+  permission javax.security.jacc.WebRoleRefPermission "Faces Servlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "com.eb431.assignment.JAXRSConfiguration", "**";
+  permission javax.security.jacc.WebRoleRefPermission "default", "**";
+};
+
+grant      principal org.glassfish.security.common.Group "users" {
+  permission javax.security.jacc.WebResourcePermission "/faces/Users/*";
+  permission javax.security.jacc.WebRoleRefPermission "Faces Servlet", "users";
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "users";
+  permission javax.security.jacc.WebRoleRefPermission "", "users";
+  permission javax.security.jacc.WebRoleRefPermission "default", "users";
+  permission javax.security.jacc.WebRoleRefPermission "com.eb431.assignment.JAXRSConfiguration", "users";
+};
+
+grant      principal org.glassfish.security.common.Group "admins" {
+  permission javax.security.jacc.WebResourcePermission "/faces/Users/*";
+  permission javax.security.jacc.WebResourcePermission "/faces/Admins/*";
+  permission javax.security.jacc.WebRoleRefPermission "Faces Servlet", "admins";
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "admins";
+  permission javax.security.jacc.WebRoleRefPermission "", "admins";
+  permission javax.security.jacc.WebRoleRefPermission "com.eb431.assignment.JAXRSConfiguration", "admins";
+  permission javax.security.jacc.WebRoleRefPermission "default", "admins";
+};
+

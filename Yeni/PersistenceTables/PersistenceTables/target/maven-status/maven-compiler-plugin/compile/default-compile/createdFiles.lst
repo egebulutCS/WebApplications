@@ -1,0 +1,6 @@
+com\gp225\persistencetables\entity\Entity1.class
+com\gp225\persistencetables\entity\EntityOneToOne.class
+com\gp225\persistencetables\ejb\TestBean.class
+com\gp225\persistencetables\entity\EntityManyToMany.class
+com\gp225\persistencetables\entity\EntityOneToMany.class
+com\gp225\persistencetables\entity\EmbeddableClass1.class

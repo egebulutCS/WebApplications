@@ -1,0 +1,14 @@
+/* AUTOMATICALLY GENERATED ON Fri Mar 27 15:37:01 GMT 2020*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "CommentStore", "preDestroy,Local,";
+  permission javax.security.jacc.EJBMethodPermission "CommentStore", "insertComment,Local,java.lang.String,java.lang.String,java.util.Date";
+  permission javax.security.jacc.EJBMethodPermission "CommentStore", "postConstruct,Local,";
+  permission javax.security.jacc.EJBMethodPermission "CommentStore", "getCommentList,Local,";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "CommentStore", "**";
+};
+

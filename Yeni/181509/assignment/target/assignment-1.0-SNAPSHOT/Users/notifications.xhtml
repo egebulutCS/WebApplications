@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Notifications</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </h:head>
+    <h:body>
+        <h:dataTable value="#{registrationBean.userNotifications}" var="TransactionHistory">
+            <h:column>    				
+                <f:facet name="header">Requester</f:facet>
+                #{TransactionHistory.get(0)}
+            </h:column>
+            <h:column>
+                <f:facet name="header">Amount</f:facet>
+                #{TransactionHistory.get(1)}
+            </h:column>
+            <h:column>
+                <f:facet name="header">Target User</f:facet>
+                #{TransactionHistory.get(2)}
+            </h:column>
+        </h:dataTable>
+        <br/>
+        <h:form>
+            To accept or reject a request, enter the information to below.
+            <br/>
+            <h:outputLabel for="requester" value="*Requester:"/>
+            <h:inputText id="requester" value="#{registrationBean.targetUser}" title="Enter requester" required="true" requiredMessage="Mandatory Field"/>
+            <h:message style="color:red" for="requester"/>
+            &nbsp;
+            <br/>
+            <h:outputLabel for="amount" value="*Amount:"/>
+            <h:inputText id="amount" value="#{registrationBean.amount}" title="Enter amount" required="true" requiredMessage="Mandatory Field"/>
+            &nbsp;
+            <h:message style="color:red" for="amount"/>
+            <br/>
+            <h:commandButton id="accept" type="submit" value="Accept" action="#{registrationBean.accept()}" title="Accept"/>
+            &nbsp;
+            <h:commandButton id="reject" type="submit" value="Reject" action="#{registrationBean.reject()}" title="Reject"/>
+        </h:form>
+        <br/>
+        <h:button id="alt_back_button" title="Go Back" value="Go Back" outcome="user"/>
+    </h:body>
+</html>

@@ -1,0 +1,5 @@
+com\eb431\servletcommentstore\Comment.class
+com\eb431\servletcommentstore\JAXRSConfiguration.class
+com\eb431\servletcommentstore\CommentStore.class
+com\eb431\servletcommentstore\resources\JavaEE8Resource.class
+com\eb431\servletcommentstore\CommentStoreServlet.class

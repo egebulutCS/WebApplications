@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Result</title>
+    </h:head>
+    <h:body>
+        <h:outputText value="#{visitorBean.getName()}"></h:outputText><br></br>
+        <h:outputText value="#{visitorBean.getVisitDate()}"><f:convertDateTime pattern="dd/mm/yyyy"></f:convertDateTime></h:outputText><br></br>
+        <h:outputText value="#{visitorBean.getComment_str()}"></h:outputText><br></br>
+        <h:button value="Back" outcome="index"></h:button>
+        <h:dataTable value="#{visitorBean.getCommentList()}" var="comment">
+            <h:column>
+                <f:facet name="header">Name</f:facet>
+                #{comment.name}
+            </h:column>
+            <h:column>
+                <f:facet name="header">Date</f:facet>
+                #{comment.visitDate}
+            </h:column>
+            <h:column>
+                <f:facet name="header">Comment</f:facet>
+                #{comment.comment_str}
+            </h:column>
+        </h:dataTable>
+
+    </h:body>
+</html>
+

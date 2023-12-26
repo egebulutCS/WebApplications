@@ -1,0 +1,16 @@
+/* AUTOMATICALLY GENERATED ON Fri Feb 14 18:40:05 GMT 2020*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.WebUserDataPermission "/";
+  permission javax.security.jacc.WebResourcePermission "/";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "**";
+  permission javax.security.jacc.WebRoleRefPermission "", "**";
+  permission javax.security.jacc.WebRoleRefPermission "com.eb431.servletcommentstore.CommentStoreServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "com.eb431.servletcommentstore.JAXRSConfiguration", "**";
+  permission javax.security.jacc.WebRoleRefPermission "default", "**";
+};
+

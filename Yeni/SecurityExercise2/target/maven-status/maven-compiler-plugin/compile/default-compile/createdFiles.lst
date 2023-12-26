@@ -1,0 +1,7 @@
+com\gp225\securityexercise2\entity\SystemUser.class
+com\gp225\securityexercise2\entity\SystemUserGroup_.class
+com\gp225\securityexercise2\entity\SystemUserGroup.class
+com\gp225\securityexercise2\jsf\RegistrationBean.class
+com\gp225\securityexercise2\entity\SystemUser_.class
+com\gp225\securityexercise2\ejb\UserService.class
+com\gp225\securityexercise2\jsf\LoginBean.class

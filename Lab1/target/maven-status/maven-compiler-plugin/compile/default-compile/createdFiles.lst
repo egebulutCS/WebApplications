@@ -1,0 +1,4 @@
+com\mycompany\mavenproject1\MyHttpRequest.class
+com\mycompany\mavenproject1\HttpParseException.class
+com\mycompany\mavenproject1\HttpServer.class
+com\mycompany\mavenproject1\MyHttpResponder.class

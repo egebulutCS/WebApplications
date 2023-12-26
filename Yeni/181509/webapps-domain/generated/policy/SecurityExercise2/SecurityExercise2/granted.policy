@@ -1,0 +1,24 @@
+/* AUTOMATICALLY GENERATED ON Fri May 01 20:49:12 BST 2020*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.WebResourcePermission "/:/faces/users/*";
+  permission javax.security.jacc.WebUserDataPermission "/:/faces/users/*";
+  permission javax.security.jacc.WebUserDataPermission "/faces/users/*", ":CONFIDENTIAL";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "**";
+  permission javax.security.jacc.WebRoleRefPermission "", "**";
+  permission javax.security.jacc.WebRoleRefPermission "Faces Servlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "default", "**";
+};
+
+grant      principal org.glassfish.security.common.Group "users" {
+  permission javax.security.jacc.WebResourcePermission "/faces/users/*";
+  permission javax.security.jacc.WebRoleRefPermission "Faces Servlet", "users";
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "users";
+  permission javax.security.jacc.WebRoleRefPermission "", "users";
+  permission javax.security.jacc.WebRoleRefPermission "default", "users";
+};
+

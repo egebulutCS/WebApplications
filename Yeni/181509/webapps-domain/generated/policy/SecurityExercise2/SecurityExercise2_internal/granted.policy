@@ -1,0 +1,11 @@
+/* AUTOMATICALLY GENERATED ON Fri May 01 20:49:12 BST 2020*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "UserService", "registerUser,Local,java.lang.String,java.lang.String,java.lang.String,java.lang.String";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "UserService", "**";
+};
+

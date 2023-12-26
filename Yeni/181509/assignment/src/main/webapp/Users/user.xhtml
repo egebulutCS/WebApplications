@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+    <h:head>
+        <title>User Page</title>
+    </h:head>
+    <h:body>
+        <h:form>
+            <h:outputLabel for="balance" value="*Your Balance:"/>
+            <h:outputText id="balance" value="#{registrationBean.getUserBalance()}" title="User Balance"/>
+            <br/>
+            Write the amount and target user then choose to send or request.
+            <br/>
+            <h:outputLabel for="target" value="*Target User:"/>
+            <h:inputText id="target" value="#{registrationBean.targetUser}" title="Enter target" required="true" requiredMessage="Mandatory Field"/>
+            &nbsp;
+            <h:message style="color:red" for="target"/>
+            <br/>
+            <h:outputLabel for="amount" value="*Amount:"/>
+            <h:inputText id="amount" value="#{registrationBean.amount}" title="Enter amount" required="true" requiredMessage="Mandatory Field"/>
+            &nbsp;
+            <h:message style="color:red" for="amount"/>
+            <br/>
+            <h:commandButton id="send" type="submit" value="Send" action="#{registrationBean.send()}" title="Send Amount"/>
+            &nbsp;
+            <h:commandButton id="request" type="submit" value="Request" action="#{registrationBean.request()}" title="Request Amount"/>
+            <br/>
+            To view transactions push the button below.
+            <br/>
+        </h:form>
+        <h:button id="alt_transactions_button" title="View Transactions" value="View Transactions" outcome="transactions"/>
+        &nbsp;
+        <h:button id="alt_notifications_button" title="View Notifications" value="View Notifications" outcome="notifications"/>
+        <br/>
+        <h:button id="alt_back_button" title="Go Back" value="Back to Index" outcome="index"/>
+    </h:body>
+</html>
